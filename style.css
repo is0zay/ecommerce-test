@@ -1,16 +1,21 @@
-
+body {
+    width: 100vw;
+    background-color: whitesmoke;
+}
 .nav-head {
-    width: 100%;
+    width: 100vw;
     top: 0;
     position: fixed;
-    
+    z-index: 10;
+    background-color: rgba(245, 245, 245, 0.562);
 }
 
 .main-nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center!important;
-    padding-top: 3%;
+    padding-top: 1%;
 
 }
 
@@ -21,15 +26,15 @@
     list-style: none;
     color: black;
     font-family: 'Public Sans', sans-serif;
-    font-size: .8rem;
+    font-size: 80%;
 }
 
 .nav-middle {
-    margin-right: 18%;
+    margin-right: 8%;
 }
 
 .head-logo {
-    width: 5rem;
+    width: 40%;
 }
 
 .nav-right {
@@ -43,7 +48,7 @@ a {
 
 .main-footer {
     background-color: black;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -52,6 +57,11 @@ a {
     gap: 10%;
     padding-top: 1rem;
     margin-left: 3%;
+}
+
+.foot-list-vert {
+    display: flex;
+    flex-direction: column;
 }
 
 .foot-list-1 {
@@ -80,3 +90,187 @@ a {
 .social-icon {
     color: rgb(156, 156, 156);
 }
+
+.index-main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: scroll;
+}
+
+.hero1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.242), rgba(0, 0, 0, 0.834)), url(/images/zaygrayhood2.webp);
+    background-size: cover;
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 7%
+}
+
+.hero1-h2 {
+    margin-top: 35%;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Alumni Sans Inline One', cursive;
+    color: whitesmoke;
+    margin-left: 3%;
+}
+
+.hero1-p1 {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-family: 'Public Sans', sans-serif;
+    margin-left: 3%;
+}
+.shop-btn1 {
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.841);
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 3%;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.shop-btn1:hover {
+    background-color: gray;
+}
+
+.home-section2 {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.section2-h2 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.twosection2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 80vh;
+    gap: 1%;
+    
+}
+
+.section2-left {
+    max-width: 100%;
+    height: auto;
+    background-image: url(/images/s2leftuse.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-right {
+    max-width: 100%;
+    height: auto;
+    background-image:url(/images/s2rightuse.webp);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(2, 20, 43, 0.675);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.s2-h3-left {
+    color: whitesmoke;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.75rem;
+    text-align: start;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.s2-leftbtn {
+    margin-top: 2%;
+}
+
+.s2-h3-right {
+    color: whitesmoke;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.75rem;
+    text-align: end;
+    margin-right: 3%;
+    margin-top: 2%;
+
+}
+
+.s2-rightbtn {
+    margin-top: 2%;
+    margin-right: 2%;
+    
+}
+
+.home-section3 {
+    margin-top: 3%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+.section2-h3 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.wrapper {
+   max-width: 100%; 
+   display: flex;
+   align-items: center;
+}
+
+.wrapper i{
+    font-size: 3.5vw;
+    color: rgba(255, 255, 255, 0.81);
+    background-color: rgba(0, 0, 0, 0.71);
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.wrapper i:first {
+    left: 0;
+    
+}
+
+.wrapper i:last-child {
+    right: 0;
+}
+
+.wrapper, .section3-carousel {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.section3-carousel img{
+    width: calc(100% / 3);
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+.section3-carousel img:first-child {
+    margin-left: 0%;
+}
+
