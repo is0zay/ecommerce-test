@@ -36,12 +36,7 @@
     
     <main class="index-main">
         <section class="shop-section">
-            <h2 class="hero1-h2">HomeXGrown</h2>
-           <section class="shop-grid">
-            <div class="shop-tile" id="shopItem">
-                <img src="" alt="" id="myImage">
-                
-            </div>
+           <section class="shop-grid" id="shopGrid">
             
            </section>
         </section>
@@ -99,15 +94,27 @@
             .then((products) => {
 
                 
+    
                 
                 for(var i = 0; i<products.length; i++) {
-                    //let image = document.getElementById("myImage").src= products[0].img;
+                    // let img = `<img src="${products[i].img}" alt="" class="productImg"> `;
+                    // let title = `<h2 src="${products[i].title}" class="productTitle">`;
+                    // let description = `<p src="${products[i].description}" class="productDescription">`;
+                    // let price = `<p src="${products[i].price}" class="productPrice">`;
+
+                    // const obj = products[i];
+
+                    // const newDiv = document.createElement("div");
+
+                    // newDiv.innerHTML = `<p>Name: ${obj.title}</p>
+                    //                     <p>Age: ${obj.description}</p>
+                    //                     <p>Email: ${obj.products}</p>`;
+
                     let image = `<img src="${products[i].img}" alt="" class="productImg"> `
-                    document.getElementById("shopItem").innerHTML += image + products[i].title + "<br />" + products[i].description + "<br />" + products[i].price;
+                    document.getElementById("shopGrid").innerHTML += "<div class='shop-tile'>" +image + products[i].title + "<br />" + products[i].description + "<br />" + products[i].price +"</div>";
 
-                    
-
-
+        
+                    // container.appendChild(newDiv);
                 };
 
                 

@@ -343,14 +343,25 @@ a {
 }
 
 .shop-section{
-    width: 90%;
+    width: 100vw;
     height: 90vh;
-    margin-left: 5%;
     z-index: 1;
-    display: flex;
+    
 }
 .shop-grid{
     margin-top: 7%;
+    margin-left: 5%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(autofit, 20rem);
+    grid-template-columns: repeat(auto-fit, 20rem);
+}
+.shop-grid img {
+    height: auto;
+    width: 100%;
+}
+
+.shop-tile {
+    display: flex;
+    flex-direction: column;
+    width: 19.5rem;
 }
