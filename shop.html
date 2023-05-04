@@ -35,50 +35,18 @@
     </header>
     
     <main class="index-main">
-        <section class="hero1">
+        <section class="shop-section">
             <h2 class="hero1-h2">HomeXGrown</h2>
-            <p class="hero1-p1">"Rooted in faith, true to who we are"</p>
-            <a href="#" class="shop-btn1">Shop</a>  
-        </section>
-        <section class="home-section2">
-            <h2 class="section2-h2">Season Looks</h2>
-            <div class="twosection2">
-                <div class="section2-left">
-                    <h3 class="s2-h3-left">Get Cozy for<br> the Cold</h3>
-                    <a href="#" class="shop-btn1 s2-leftbtn">Shop</a> 
+           <section class="shop-grid">
+            <div class="product-item">
 
-                </div>
-                <div class="section2-right">
-                    <h3 class="s2-h3-right">Hot Arrivals for<br> the Heat</h3>
-                    <a href="#" class="shop-btn1 s2-rightbtn">Shop</a> 
-                    
-                </div>
             </div>
+            
+           </section>
         </section>
+        
 
-        <section class="home-section3">
-            <h2 class="section2-h3">Recent Drops</h2>
-
-            <div class="wrapper">
-                <i id="left-arrow" class="fa-solid fa-circle-chevron-left"></i>
-                <div class="section3-carousel">
-                    <img src="/images/slide1.webp" alt="img">
-                    <img src="/images/slide2.webp" alt="img">
-                    <img src="/images/slide3.webp" alt="img">
-                    <img src="/images/slide4.webp" alt="img">
-                    <img src="/images/slide5.webp" alt="img">
-                    <img src="/images/slide6.webp" alt="img">
-                </div>
-                <i id="right-arrow" class="fa-solid fa-circle-chevron-right"></i>
-            </div>
-        </section>
-
-        <section class="home-section4">
-            <div class="section4-img">
-                <img class="hgbanner" src="/images/hgbanner.webp" alt="">
-            </div>
-        </section>
-
+        
     </main>
 
     <footer class="main-footer">
@@ -122,6 +90,10 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        fetch('./products.json')
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+    </script>
 </body>
 </html>

@@ -113,7 +113,7 @@ a {
 }
 
 .hero1-h2 {
-    margin-top: 35%;
+    margin-top: 5%;
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 400;
@@ -260,17 +260,97 @@ a {
 .wrapper, .section3-carousel {
     white-space: nowrap;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
+
+/* .section3-carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+.section3-carousel.dragging img {
+    pointer-events: none;
+} */
 
 .section3-carousel img{
     width: calc(100% / 3);
     height: auto;
     object-fit: cover;
     cursor: pointer;
-    margin-left: 1%;
+    margin-left: 4px;
 }
 
 .section3-carousel img:first-child {
     margin-left: 0%;
 }
 
+.home-section4 {
+    height: 50vh;
+}
+
+.section4-img {
+    width: 100vh;
+    height: auto; 
+}
+
+/* Shop Page Begins */
+
+.hero2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.242), rgba(0, 0, 0, 0.834)), url(/images/hero2.webp);
+    background-size: cover;
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 7%
+}
+
+.hero2-h2 {
+    margin-top: 5%;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Alumni Sans Inline One', cursive;
+    color: whitesmoke;
+    margin-left: 3%;
+}
+
+.hero2-p1 {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-family: 'Public Sans', sans-serif;
+    margin-left: 3%;
+}
+.shop-btn1 {
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.841);
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 3%;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.shop-btn1:hover {
+    background-color: gray;
+}
+
+.shop-section{
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    z-index: 1;
+    display: flex;
+}
+.shop-grid{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: repeat(autofit, 20rem);
+}
