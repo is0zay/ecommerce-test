@@ -38,8 +38,9 @@
         <section class="shop-section">
             <h2 class="hero1-h2">HomeXGrown</h2>
            <section class="shop-grid">
-            <div class="product-item">
-
+            <div class="shop-tile" id="shopItem">
+                <img src="" alt="" id="myImage">
+                
             </div>
             
            </section>
@@ -90,10 +91,30 @@
         </div>
     </footer>
 
-    <script>
+    <script type="text/javascript">
+
+
         fetch('./products.json')
             .then((response) => response.json())
-            .then((json) => console.log(json));
+            .then((products) => {
+
+                
+                
+                for(var i = 0; i<products.length; i++) {
+                    //let image = document.getElementById("myImage").src= products[0].img;
+                    let image = `<img src="${products[i].img}" alt="" class="productImg"> `
+                    document.getElementById("shopItem").innerHTML += image + products[i].title + "<br />" + products[i].description + "<br />" + products[i].price;
+
+                    
+
+
+                };
+
+                
+                
+            });
+
+        
     </script>
 </body>
 </html>
