@@ -111,7 +111,9 @@
                     //                     <p>Email: ${obj.products}</p>`;
 
                     let image = `<img src="${products[i].img}" alt="" class="productImg"> `
-                    document.getElementById("shopGrid").innerHTML += "<div class='shop-tile'>" +image + products[i].title + "<br />" + products[i].description + "<br />" + products[i].price +"</div>";
+                    document.getElementById("shopGrid").innerHTML +=  "<div class='shop-tile' id='shopTile'>" +image + "<h2 class='shop-h2'>" + products[i].title + "</h2>" + "<p class='shop-description'>" + products[i].description + "</p>" + "<h2 class='shop-h2'>" + products[i].price + "</h2>" + "</div>";
+
+                
 
         
                     // container.appendChild(newDiv);

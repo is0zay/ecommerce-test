@@ -10,14 +10,14 @@
         "id": "tops-1",
         "img": "/images/slide2.webp",
         "title": "GREEN 'HG' ZIP RUGBY",
-        "description": "Green Base, Gold Zipper For Collar, 'HG' Logo On Chest In White, Leaf Logo On Shoulder In White, 'Rooted In Faith, True To Who We Are' Located On The Bottom Of Shirt In White, Fits True To Size, Order Up A Size If You Prefer A Looser Fit, All Embroidered Logos, Please Be Mindful Of Washing And Drying To Avoid Shrinkage - Cotton Material",
+        "description": "Green Base, Gold Zipper For Collar, 'HG' Logo On Chest In White, Leaf Logo On Shoulder In White, 'Rooted In Faith, True To Who We Are' Located On The Bottom Of Shirt In White,",
         "price": "$50.00"
     },
     {
         "id": "tops-2",
         "img": "/images/slide3.webp",
         "title": "BLACK 'HG' ZIP RUGBY",
-        "description": "Black Base, Gold Zipper For Collar, 'HG' Logo On Chest In White, Leaf Logo On Shoulder In White, 'Rooted In Faith, True To Who We Are' Located On The Bottom Of Shirt In White, Fits True To Size, Order Up A Size If You Prefer A Looser Fit, All Embroidered Logos, Please Be Mindful Of Washing And Drying To Avoid Shrinkage - Cotton Material",
+        "description": "Black Base, Gold Zipper For Collar, 'HG' Logo On Chest In White, Leaf Logo On Shoulder In White, 'Rooted In Faith, True To Who We Are' Located On The Bottom Of Shirt In White,",
         "price": "$50.00"
     },{
         "id": "top-3",
@@ -42,56 +42,69 @@
     },
     {
         "id": "bottoms-1",
-        "img": "/images/slide1.webp",
+        "img": "/images/slide7.webp",
         "title": "HOMEGROWN 'HIVEMIND' SHORTS",
         "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
         "price": "$60.00"
     },
     {
         "id": "bottoms-1",
-        "img": "/images/slide1.webp",
+        "img": "/images/slide8.webp",
         "title": "HOMEGROWN 'HIVEMIND' SHORTS",
         "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
         "price": "$60.00"
     },
     {
         "id": "bottoms-1",
-        "img": "/images/slide1.webp",
+        "img": "/images/slide9.webp",
         "title": "HOMEGROWN 'HIVEMIND' SHORTS",
         "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
         "price": "$60.00"
     },
     {
         "id": "bottoms-1",
-        "img": "/images/slide1.webp",
+        "img": "/images/slide10.webp",
         "title": "HOMEGROWN 'HIVEMIND' SHORTS",
         "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
         "price": "$60.00"
     },
     {
         "id": "bottoms-1",
-        "img": "/images/slide1.webp",
+        "img": "/images/slide11.webp",
         "title": "HOMEGROWN 'HIVEMIND' SHORTS",
         "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
         "price": "$60.00"
     },
     {
         "id": "bottoms-1",
-        "img": "/images/slide1.webp",
+        "img": "/images/slide12.webp",
         "title": "HOMEGROWN 'HIVEMIND' SHORTS",
         "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
         "price": "$60.00"
     },
     {
         "id": "bottoms-1",
-        "img": "/images/slide1.webp",
+        "img": "/images/slide13.webp",
         "title": "HOMEGROWN 'HIVEMIND' SHORTS",
         "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
         "price": "$60.00"
     },
     {
         "id": "bottoms-1",
-        "img": "/images/slide1.webp",
+        "img": "/images/slide14.webp",
+        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
+        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
+        "price": "$60.00"
+    },
+    {
+        "id": "bottoms-1",
+        "img": "/images/slide15.webp",
+        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
+        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
+        "price": "$60.00"
+    },{
+        "id": "bottoms-1",
+        "img": "/images/slide16.webp",
         "title": "HOMEGROWN 'HIVEMIND' SHORTS",
         "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
         "price": "$60.00"
