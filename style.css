@@ -29,6 +29,14 @@ body {
     font-size: 80%;
 }
 
+.nav-link {
+    transition: 0.5s ease;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: green;
+}
+
 .hamburger {
     display: none;
 }
@@ -53,8 +61,8 @@ a {
 
 .main-footer {
     background-color: black;
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    bottom: -10;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -359,8 +367,30 @@ a {
         overflow-x: hidden;
     }
     .nav-left{
-        display: none;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: whitesmoke;
+        width: calc(100% / 3);
+        height: 100vh;
+        text-align: center;
+        transition: 0.3s;
+        margin-left: 0px;
+        
+
     }
+    .nav-left li {
+        margin: 1rem 0;
+    }
+    .nav-left.active{
+        left: 0;
+    }
+    .nav-link {
+        color: black;
+    }
+
     .hamburger{
         list-style: none;
         display: block;
@@ -394,9 +424,12 @@ a {
     .home-section4 {
         height: calc(100vh / 6);
     }
+    .shop-grid {
+        margin-left: 5%;
+    }
 }
 
-@media(max-width: 391px) {
+@media(max-width: 660px) {
     .foot-list-vert {
         display: flex;
         flex-direction: column;
@@ -494,13 +527,13 @@ a {
 
 .shop-section{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     z-index: 1;
+    margin-left: 5.75%;
     
 }
 .shop-grid{
     margin-top: 7%;
-    margin-left: 5%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, 20rem);

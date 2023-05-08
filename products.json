@@ -20,7 +20,7 @@
         "description": "Black Base, Gold Zipper For Collar, 'HG' Logo On Chest In White, Leaf Logo On Shoulder In White, 'Rooted In Faith, True To Who We Are' Located On The Bottom Of Shirt In White,",
         "price": "$50.00"
     },{
-        "id": "top-3",
+        "id": "tops-3",
         "img": "/images/slide4.webp",
         "title": "GRAY CHAMPIONSHIP RING HOODIE",
         "description": "Gold Ring On Chest With Hleaf Logo, Leaf Logo On Wrist In White, 'Rooted in Faith, True To Who We Are' Located On Top Of Hoodie In White",
@@ -41,73 +41,74 @@
         "price": "$60.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "tops-5",
         "img": "/images/slide7.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
-        "price": "$60.00"
+        "title": "WHITE 'HOMEMADE' EVERY DAY TEE",
+        "description": "White HomeMade Tee",
+        "price": "$40.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "bottoms-2",
         "img": "/images/slide8.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
-        "price": "$60.00"
+        "title": "HOME TEAM ALL STAR SHORTS",
+        "description": "Mesh Shorts With Knit Rib Waist Band Embroidered 'HomexGrown' On Middle",
+        "price": "$20.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "tops-6",
         "img": "/images/slide9.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
+        "title": "HOMEGROWN STARTRAK HOODIE",
+        "description": "Oversized Hoodie, Pink, White Star, Navy Star, Royal Blue 'H','Home Made' Hood Logo",
         "price": "$60.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "bottoms-3",
         "img": "/images/slide10.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
+        "title": "HOMEGROWN STACKED CARGO SWEATS",
+        "description": "Navy Stacked Fit, Ankle Zipper For Adjustment, HomeGrown OG Logo Patch, Pink Stars Patch",
         "price": "$60.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "tops-7",
         "img": "/images/slide11.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
-        "price": "$60.00"
+        "title": "WOMEN'S VELOUR CREAM SWEATSUIT (JACKET)",
+        "description": "Jacket of Set",
+        "price": "$35.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "bottoms-4",
         "img": "/images/slide12.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
-        "price": "$60.00"
+        "title": "WOMEN'S VELOUR CREAM SWEATSUIT (PANTS)",
+        "description": "Pants of Set",
+        "price": "$35.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "bottoms-5",
         "img": "/images/slide13.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
-        "price": "$60.00"
+        "title": "HOMEXGROWN BLUE DIGITAL CAMO SHORTS",
+        "description": "Shades Of Light Blue. Black Logos.Fits Slightly above the knee. Shorter Fit",
+        "price": "$40.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "bottoms-6",
         "img": "/images/slide14.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
-        "price": "$60.00"
+        "title": "HOMEXGROWN GREEN DIGITAL CAMO SHORTS",
+        "description": "Green And Tan, White Logos, Fits Slightly Above The Knee. Shorter Fit",
+        "price": "$40.00"
     },
     {
-        "id": "bottoms-1",
+        "id": "bottoms-7",
         "img": "/images/slide15.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
-        "price": "$60.00"
-    },{
-        "id": "bottoms-1",
+        "title": "BLACK CHAMPIONSHIP RING PANTS",
+        "description": "Flare Bottoms, String On Inside For Waist, Leaf Logo On Thigh In White, 'Rooted in Faith, True To Who We Are' Located Under Logo In White",
+        "price": "$30.00"
+    },
+    {
+        "id": "bottoms-8",
         "img": "/images/slide16.webp",
-        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
-        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
-        "price": "$60.00"
+        "title": "GRAY CHAMPIONSHIP RING PANTS",
+        "description": "Flare Bottoms, String On Inside For Waist, Leaf Logo On Thigh In White, 'Rooted in Faith, True To Who We Are' Located Under Logo In White",
+        "price": "$30.00"
     }
 
 ]

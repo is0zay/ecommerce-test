@@ -19,14 +19,17 @@
 <body>
     <header class="nav-head">
         <nav class="main-nav">
+            <div class="hamburger">
+                <li><i class="fa-solid fa-bars"></i></li>
+            </div>
             <ul class="nav-left">
-                <li><a href="shop.html">SHOP</a></li>
-                <li><a href="">TOPS</a></li>
-                <li><a href="">BOTTOMS</a></li>
-                <li><a href="">ACCESSORIES</a></li>
+                <li><a href="shop.html" class="nav-link">SHOP</a></li>
+                <li><a href="" class="nav-link">TOPS</a></li>
+                <li><a href="" class="nav-link">BOTTOMS</a></li>
+                <li><a href="" class="nav-link">ACCESSORIES</a></li>
             </ul>
             <ul class="nav-middle">
-                <li><a href="index.html"><img src="/images/hglogo.avif" alt="" class="head-logo"></a></li>
+                <li class="middle-link"><a href="index.html"><img src="/images/hglogo.avif" alt="" class="head-logo"></a></li>
             </ul>
            <ul class="nav-right">
                 <li><a href="#"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></li>
@@ -79,13 +82,37 @@
 
             <ul class="footer-list-social">
                 <li class="footer-item"><a href="https://www.facebook.com/" target="_blank" aria-label="facebook link" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li class="footer-item"><a href="https://www.yelp.com/" target="_blank" aria-label="yelp link" class="social-icon"><i class="fa-brands fa-yelp"></i></a></li>
                 <li class="footer-item"><a href="https://twitter.com/" target="_blank" aria-label="twitter link" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
                 <li class="footer-item"><a href="https://www.instagram.com/" target="_blank" aria-label="instagram link" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </div>
-    </footer>
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <div class="fbl-left1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="fblp">United States</p>
+                </div>
+                <div class="fbl-left2">
+                    <p class="copyright">&copy; 2023 HomexGrown All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="footer-bottom-right">
+                <div class="fbr-top">
+                    <ul class="fbr-list">
+                        <li><p>Terms of Sale</p></li>
+                        <li><p>Terms of Use</p></li>
+                        <li><p>HxG Privacy Policy</p></li>
+                        <li><p>Your Privacy Choices</p></li>
+                    </ul>
+                </div>
+                <div class="fbr-bottom">
+                    <p>CA Supply Chains Act</p>
+                </div>
 
+            </div>
+        </div>
+    </footer>
+    
     <script type="text/javascript">
 
 
@@ -123,7 +150,18 @@
                 
             });
 
+            //Hamburger Menu
+const hamburger = document.querySelector(".hamburger");
+const navigation = document.querySelector(".nav-left");
+
+hamburger.addEventListener("click", () => {
+    navigation.classList.toggle("active");
+});
+
+document.querySelectorAll(".")
+
         
     </script>
+    
 </body>
 </html>

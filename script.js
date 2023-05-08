@@ -42,3 +42,15 @@ const dragEnd = () => {
 carousel.addEventListener("mousedown", dragBegin);
 carousel.addEventListener("mousemove", dragging);
 carousel.addEventListener("mouseup", dragEnd); // this sets isDragging to false once the user released the mouse btn, which stops images from sliding untill clicked again
+
+
+
+//Hamburger Menu
+const hamburger = document.querySelector(".hamburger");
+const navigation = document.querySelector(".nav-left");
+
+hamburger.addEventListener("click", () => {
+    navigation.classList.toggle("active");
+});
+
+document.querySelectorAll(".")
