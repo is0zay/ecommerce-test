@@ -24,8 +24,8 @@
             </div>
             <ul class="nav-left">
                 <li><a href="shop.html" class="nav-link">SHOP</a></li>
-                <li><a href="" class="nav-link">TOPS</a></li>
-                <li><a href="" class="nav-link">BOTTOMS</a></li>
+                <li><a href="tops.html" class="nav-link">TOPS</a></li>
+                <li><a href="bottoms.html" class="nav-link">BOTTOMS</a></li>
                 <li><a href="accessories.html" class="nav-link">ACCESSORIES</a></li>
             </ul>
             <ul class="nav-middle">
@@ -38,48 +38,14 @@
     </header>
     
     <main class="index-main">
-        <section class="hero1">
-            <h2 class="hero1-h2">HomeXGrown</h2>
-            <p class="hero1-p1">"Rooted in faith, true to who we are"</p>
-            <a href="#" class="shop-btn1">Shop</a>  
+        <section class="shop-section">
+           <section class="shop-grid" id="shopGrid">
+            
+           </section>
         </section>
-        <section class="home-section2">
-            <h2 class="section2-h2">Season Looks</h2>
-            <div class="twosection2">
-                <div class="section2-left">
-                    <h3 class="s2-h3-left">Get Cozy for<br> the Cold</h3>
-                    <a href="#" class="shop-btn1 s2-leftbtn">Shop</a> 
+        
 
-                </div>
-                <div class="section2-right">
-                    <h3 class="s2-h3-right">Hot Arrivals for<br> the Heat</h3>
-                    <a href="#" class="shop-btn1 s2-rightbtn">Shop</a> 
-                    
-                </div>
-            </div>
-        </section>
-
-        <section class="home-section3">
-            <h2 class="section2-h3">Recent Drops</h2>
-
-            <div class="wrapper">
-                <i id="left-arrow" class="fa-solid fa-circle-chevron-left"></i>
-                <div class="section3-carousel">
-                    <img src="/images/slide1.webp" alt="img">
-                    <img src="/images/slide2.webp" alt="img">
-                    <img src="/images/slide3.webp" alt="img">
-                    <img src="/images/slide4.webp" alt="img">
-                    <img src="/images/slide5.webp" alt="img">
-                    <img src="/images/slide6.webp" alt="img">
-                </div>
-                <i id="right-arrow" class="fa-solid fa-circle-chevron-right"></i>
-            </div>
-        </section>
-
-        <section class="home-section4">
-            <div class="hgbanner"></div>
-        </section>
-
+        
     </main>
 
     <footer class="main-footer">
@@ -146,7 +112,56 @@
             </div>
         </div>
     </footer>
+    
+    <script type="text/javascript">
 
-    <script src="script.js"></script>
+
+        fetch('./tops.json')
+            .then((response) => response.json())
+            .then((products) => {
+
+                
+    
+                
+                for(var i = 0; i<products.length; i++) {
+                    // let img = `<img src="${products[i].img}" alt="" class="productImg"> `;
+                    // let title = `<h2 src="${products[i].title}" class="productTitle">`;
+                    // let description = `<p src="${products[i].description}" class="productDescription">`;
+                    // let price = `<p src="${products[i].price}" class="productPrice">`;
+
+                    // const obj = products[i];
+
+                    // const newDiv = document.createElement("div");
+
+                    // newDiv.innerHTML = `<p>Name: ${obj.title}</p>
+                    //                     <p>Age: ${obj.description}</p>
+                    //                     <p>Email: ${obj.products}</p>`;
+
+                    let image = `<img src="${products[i].img}" alt="" class="productImg"> `
+                    document.getElementById("shopGrid").innerHTML +=  "<div class='shop-tile' id='shopTile'>" +image + "<h2 class='shop-h2'>" + products[i].title + "</h2>" + "<p class='shop-description'>" + products[i].description + "</p>" + "<h2 class='shop-h2'>" + products[i].price + "</h2>" + "</div>";
+
+                
+
+        
+                    // container.appendChild(newDiv);
+                };
+
+                
+                
+            });
+
+            //Hamburger Menu
+const hamburger = document.querySelector(".hamburger");
+const navigation = document.querySelector(".nav-left");
+
+hamburger.addEventListener("click", () => {
+    navigation.classList.toggle("active");
+});
+
+document.querySelectorAll(".")
+
+        
+    </script>
+    
 </body>
 </html>

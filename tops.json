@@ -1,0 +1,51 @@
+[
+    {
+        "id": "tops-1",
+        "img": "/images/slide2.webp",
+        "title": "GREEN 'HG' ZIP RUGBY",
+        "description": "Green Base, Gold Zipper For Collar, 'HG' Logo On Chest In White, Leaf Logo On Shoulder In White, 'Rooted In Faith, True To Who We Are' Located On The Bottom Of Shirt In White,",
+        "price": "$50.00"
+    },
+    {
+        "id": "tops-2",
+        "img": "/images/slide3.webp",
+        "title": "BLACK 'HG' ZIP RUGBY",
+        "description": "Black Base, Gold Zipper For Collar, 'HG' Logo On Chest In White, Leaf Logo On Shoulder In White, 'Rooted In Faith, True To Who We Are' Located On The Bottom Of Shirt In White,",
+        "price": "$50.00"
+    },
+    {
+        "id": "tops-3",
+        "img": "/images/slide4.webp",
+        "title": "GRAY CHAMPIONSHIP RING HOODIE",
+        "description": "Gold Ring On Chest With Hleaf Logo, Leaf Logo On Wrist In White, 'Rooted in Faith, True To Who We Are' Located On Top Of Hoodie In White",
+        "price": "$40.00"
+    },
+    {
+        "id": "tops-4",
+        "img": "/images/slide5.webp",
+        "title": "BLACK CHAMPIONSHIP RING HOODIE",
+        "description": "Gold Ring On Chest With Hleaf Logo, Leaf Logo On Wrist In White, 'Rooted in Faith, True To Who We Are' Located On Top Of Hoodie In White",
+        "price": "$40.00"
+    },
+    {
+        "id": "tops-5",
+        "img": "/images/slide7.webp",
+        "title": "WHITE 'HOMEMADE' EVERY DAY TEE",
+        "description": "White HomeMade Tee",
+        "price": "$40.00"
+    },
+    {
+        "id": "tops-6",
+        "img": "/images/slide9.webp",
+        "title": "HOMEGROWN STARTRAK HOODIE",
+        "description": "Oversized Hoodie, Pink, White Star, Navy Star, Royal Blue 'H','Home Made' Hood Logo",
+        "price": "$60.00"
+    },
+    {
+        "id": "tops-7",
+        "img": "/images/slide11.webp",
+        "title": "WOMEN'S VELOUR CREAM SWEATSUIT (JACKET)",
+        "description": "Jacket of Set",
+        "price": "$35.00"
+    }
+]

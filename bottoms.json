@@ -1,0 +1,58 @@
+[
+    {
+        "id": "bottoms-1",
+        "img": "./images/slide1.webp",
+        "title": "HOMEGROWN 'HIVEMIND' SHORTS",
+        "description": "Hornet Mesh Shorts, Please Size UP For Longer Length, Shorts Stop On Thigh, Stay True To Size For Shorter Fit",
+        "price": "$60.00"
+    },
+    {
+        "id": "bottoms-2",
+        "img": "/images/slide8.webp",
+        "title": "HOME TEAM ALL STAR SHORTS",
+        "description": "Mesh Shorts With Knit Rib Waist Band Embroidered 'HomexGrown' On Middle",
+        "price": "$20.00"
+    },
+    {
+        "id": "bottoms-3",
+        "img": "/images/slide10.webp",
+        "title": "HOMEGROWN STACKED CARGO SWEATS",
+        "description": "Navy Stacked Fit, Ankle Zipper For Adjustment, HomeGrown OG Logo Patch, Pink Stars Patch",
+        "price": "$60.00"
+    },
+    {
+        "id": "bottoms-4",
+        "img": "/images/slide12.webp",
+        "title": "WOMEN'S VELOUR CREAM SWEATSUIT (PANTS)",
+        "description": "Pants of Set",
+        "price": "$35.00"
+    },
+    {
+        "id": "bottoms-5",
+        "img": "/images/slide13.webp",
+        "title": "HOMEXGROWN BLUE DIGITAL CAMO SHORTS",
+        "description": "Shades Of Light Blue. Black Logos.Fits Slightly above the knee. Shorter Fit",
+        "price": "$40.00"
+    },
+    {
+        "id": "bottoms-6",
+        "img": "/images/slide14.webp",
+        "title": "HOMEXGROWN GREEN DIGITAL CAMO SHORTS",
+        "description": "Green And Tan, White Logos, Fits Slightly Above The Knee. Shorter Fit",
+        "price": "$40.00"
+    },
+    {
+        "id": "bottoms-7",
+        "img": "/images/slide15.webp",
+        "title": "BLACK CHAMPIONSHIP RING PANTS",
+        "description": "Flare Bottoms, String On Inside For Waist, Leaf Logo On Thigh In White, 'Rooted in Faith, True To Who We Are' Located Under Logo In White",
+        "price": "$30.00"
+    },
+    {
+        "id": "bottoms-8",
+        "img": "/images/slide16.webp",
+        "title": "GRAY CHAMPIONSHIP RING PANTS",
+        "description": "Flare Bottoms, String On Inside For Waist, Leaf Logo On Thigh In White, 'Rooted in Faith, True To Who We Are' Located Under Logo In White",
+        "price": "$30.00"
+    }
+]
