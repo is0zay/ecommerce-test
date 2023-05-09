@@ -38,14 +38,40 @@
     </header>
     
     <main class="index-main">
-        <section class="shop-section">
-           <section class="shop-grid" id="shopGrid">
-            
-           </section>
+        <section class="help-1">
+            <h3 class="help-h3">Contact</h3>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fa-solid fa-mobile-screen-button card-icon"></i>
+                    <h4 class="card-h4">Products & Orders</h4>
+                    <p class="card-p">1-800-555-5555</p>
+                    <p class="card-p">9 am - 9pm ET</p>
+                    <p class="card-p">Mon - Fri</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-regular fa-envelope card-icon"></i>
+                    <h4 class="card-h4">Company Info & Inquiries</h4>
+                    <p class="card-p">EMAIL US</p>
+                    <p class="card-p">support@homexgrown.com</p>
+                    <p class="card-p">Mon - Fri</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot card-icon"></i>
+                    <h4 class="card-h4">Location</h4>
+                    <p class="card-p">CHARLOTTE, N.C.</p>
+                </div>
+            </div>
+        
         </section>
-        
 
-        
+        <section class="help-2">
+            <h2 class="help-h2">Get Help</h2>
+            <form class="searchbar">
+                <input class="search" type="search" placeholder="Search..">
+                <button class="search-icon" type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </section>
+
     </main>
 
     <footer class="main-footer">
@@ -112,56 +138,7 @@
             </div>
         </div>
     </footer>
-    
-    <script type="text/javascript">
 
-
-        fetch('./products.json')
-            .then((response) => response.json())
-            .then((products) => {
-
-                
-    
-                
-                for(var i = 0; i<products.length; i++) {
-                    // let img = `<img src="${products[i].img}" alt="" class="productImg"> `;
-                    // let title = `<h2 src="${products[i].title}" class="productTitle">`;
-                    // let description = `<p src="${products[i].description}" class="productDescription">`;
-                    // let price = `<p src="${products[i].price}" class="productPrice">`;
-
-                    // const obj = products[i];
-
-                    // const newDiv = document.createElement("div");
-
-                    // newDiv.innerHTML = `<p>Name: ${obj.title}</p>
-                    //                     <p>Age: ${obj.description}</p>
-                    //                     <p>Email: ${obj.products}</p>`;
-
-                    let image = `<img src="${products[i].img}" alt="" class="productImg"> `
-                    document.getElementById("shopGrid").innerHTML +=  "<div class='shop-tile' id='shopTile'>" +image + "<h2 class='shop-h2'>" + products[i].title + "</h2>" + "<p class='shop-description'>" + products[i].description + "</p>" + "<h2 class='shop-h2'>" + products[i].price + "</h2>" + "</div>";
-
-                
-
-        
-                    // container.appendChild(newDiv);
-                };
-
-                
-                
-            });
-
-            //Hamburger Menu
-const hamburger = document.querySelector(".hamburger");
-const navigation = document.querySelector(".nav-left");
-
-hamburger.addEventListener("click", () => {
-    navigation.classList.toggle("active");
-});
-
-document.querySelectorAll(".")
-
-        
-    </script>
-    
+    <script src="script.js"></script>
 </body>
 </html>
